@@ -12,7 +12,7 @@ npx tailwindcss init -p
 #### **2.** Start the Postcss CLI build process.
 Then go to the file called `package.json` in your project and then copy and paste the below code inside the section called `scripts`. ↓↓↓
 ```bash
-"postcss": "postcss ./src/input.css -o ./dist/output.css -w"
+"postcss": "postcss ./src/css/input.css -o ./dist/output.css -w"
 ```
 </br>
 
